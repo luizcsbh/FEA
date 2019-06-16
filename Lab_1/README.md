@@ -1,4 +1,4 @@
-# FEA
+# FEA integrantes @luizcsbh e @edufilipe
 Repositório da disciplina Front End Avançado
 
 Instruções:
