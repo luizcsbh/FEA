@@ -12,7 +12,8 @@
 	<!-- Place favicon.ico in the root directory -->
 
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/output.css>
+	<link rel="stylesheet" href="css/output.css">
+	
 
 	<meta name="theme-color" content="#fafafa">
 </head>
@@ -21,8 +22,10 @@
 	<html>
 
 	<body>
-		<p id="demo">Clique no botão para receber sua localização em Latitude e Longitude:</p>
-		<button onclick="getLocation()">Clique Aqui</button>
+		<div id='main'>
+			<p id="demo">Clique no botão para receber sua localização em Latitude e Longitude:</p>
+			<button onclick="getLocation()" class='btn'>Clique Aqui</button>
+		</div>
 		<script src="js/geolocalizacao.js"></script>
 		<script src="js/vendor/modernizr-3.7.1.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
