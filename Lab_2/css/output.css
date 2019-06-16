@@ -1,0 +1,24 @@
+#main {
+  width: 97%;
+}
+#main p,
+#main div {
+  font-size: 2em;
+}
+#main p a,
+#main div a {
+  font-weight: bold;
+}
+#main pre {
+  font-size: 3em;
+}
+
+.btn {
+  background: #0069D9;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=output.css.map */
