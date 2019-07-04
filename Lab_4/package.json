@@ -1,0 +1,15 @@
+{
+  "name": "lab_4",
+  "version": "1.0.0",
+  "description": "Laboratório 4 sobre NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Santos",
+  "license": "ISC", 
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
+  
